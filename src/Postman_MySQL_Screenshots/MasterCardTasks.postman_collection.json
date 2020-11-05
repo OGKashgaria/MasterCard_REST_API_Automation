@@ -1,0 +1,369 @@
+{
+	"info": {
+		"_postman_id": "c8da4f9a-b12b-4724-92ed-86e9a51be76a",
+		"name": "MasterCardTasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST_Requests",
+			"item": [
+				{
+					"name": "POST_brentwood",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"info_id\":101,\n    \"add1\":\"Cecelia Ave\",\n    \"add2\":\"\",\n    \"city\":\"Brentwood\",\n    \"state\":\"MO\",\n    \"zipCode\":63144,\n    \"country\":\"USA\"\n\n}\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/addAddress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST_maplewood",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n     \"info_id\":102,\n    \"add1\":\"Cecelia Ave\",\n    \"add2\":\"\",\n    \"city\":\"Maplewood\",\n    \"state\":\"Missouri\",\n    \"zipCode\":63155,\n    \"country\":\"United States\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/addAddress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST_StLouis",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n     \"info_id\":104,\n    \"add1\":\"Cecelia Ave\",\n    \"add2\":\"\",\n    \"city\":\"Manchaster\",\n    \"state\":\"MO\",\n    \"zipCode\":63199,\n    \"country\":\"USA\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/addAddress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST_Vancouver",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n     \"info_id\":105,\n    \"add1\":\"Clayton Road\",\n    \"add2\":\"\",\n    \"city\":\"Vancouver\",\n    \"state\":\"BC\",\n    \"zipCode\":55889,\n    \"country\":\"Canada\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/addAddress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST_Toronto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n     \"info_id\":106,\n    \"add1\":\"Forest Parkway\",\n    \"add2\":\"\",\n    \"city\":\"Toronto\",\n    \"state\":\"ON\",\n    \"zipCode\":56666,\n    \"country\":\"Canada\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/addAddress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST_ottawa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n     \"info_id\":107,\n    \"add1\":\"Highway\",\n    \"add2\":\"\",\n    \"city\":\"Ottawa\",\n    \"state\":\"QC\",\n    \"zipCode\":88888,\n    \"country\":\"Canada\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/addAddress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST_mutipleAdds",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"info_id\": 108,\n        \"add1\": \"Eidgah Road\",\n        \"add2\": \"\",\n        \"city\": \"Kashgar\",\n        \"state\": \"Wisconson\",\n        \"zipCode\": 85450,\n        \"country\": \"USA\"\n    },\n    {\n        \"info_id\": 109,\n        \"add1\": \"Yengsar Ave\",\n        \"add2\": \"\",\n        \"city\": \"Kashgar\",\n        \"state\": \"KA\",\n        \"zipCode\": 95301,\n        \"country\": \"USA\"\n    },\n    {\n        \"info_id\": 110,\n        \"add1\": \"Saghan Big Road\",\n        \"add2\": \"\",\n        \"city\": \"Urumqi\",\n        \"state\": \"Uyghur\",\n        \"zipCode\": 99999,\n        \"country\": \"Canada\"\n    }\n  \n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/addAddresses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addAddresses"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "GET_Requests",
+			"item": [
+				{
+					"name": "GET_addresses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9191/addresses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addresses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_byId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9191/addressById/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"addressById",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_byCity",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_address_In_SameCity",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "DELETE_Requests",
+			"item": [
+				{
+					"name": "DELETE_byId_1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9191/deleteAddress/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"deleteAddress",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "PUT_Requests",
+			"item": [
+				{
+					"name": "PUT_request1",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\n        \"info_id\": 8,\n        \"add1\": \"Oghlan's Backyard\",\n        \"add2\": \"Brentwood\",\n        \"city\": \"St. Louis\",\n        \"state\": \"Almata\",\n        \"zipCode\": 77995,\n        \"country\": \"USA\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191//updateAddress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"",
+								"updateAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT_updateMultipleAdds",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  \n  [\n   {\n        \"info_id\": 9,\n        \"add1\": \"Yengsar Yolliri Uzun\",\n        \"add2\": \"\",\n        \"city\": \"Tashkent\",\n        \"state\": \"Ozbekistan\",\n        \"zipCode\": 95777,\n        \"country\": \"USA\"\n    },\n    {\n        \"info_id\": 10,\n        \"add1\": \"Saghan Big Road\",\n        \"add2\": \"Saybagh Kenti\",\n        \"city\": \"Urumqi\",\n        \"state\": \"World\",\n        \"zipCode\": 99999,\n        \"country\": \"Canada\"\n    }\n  ]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191//updateAddresses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"",
+								"updateAddresses"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

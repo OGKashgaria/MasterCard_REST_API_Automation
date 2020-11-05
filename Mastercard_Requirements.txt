@@ -1,0 +1,31 @@
+The manager would like you to complete the following coding exercise prior to your next interview:
+
+
+
+You can upload your results in github and send the link along for the technical interview.
+ You will email the link for the coding exercise
+ to Steve Light and Ceres Dbritto –
+
+ steve.light@mastercard.com
+  and
+  ceres.dbritto@mastercard.com
+
+
+
+Coding Exercise: Please submit code through github and email link to technical panel:
+
+Build a rest service that can provide a test address data based on the country provided in the request,
+to be used in your automation.
+The address data should be from a database to be able to make any test data changes via the DB.
+As an example, provide test data for USA and Canada. Use your choice of frameworks and database.
+---------------------------------
+Fields for Address:
+Address1
+Address2
+City
+State
+Zip Code
+
+------------------------------------
+
+Thank you,
